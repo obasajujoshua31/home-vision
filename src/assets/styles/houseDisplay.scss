@@ -1,0 +1,48 @@
+.house-display {
+  height: 100%;
+  width: 100%;
+}
+
+.display-container {
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-col {
+  height: 200px;
+  width: 200px;
+  margin: 20px 0px;
+}
+
+.ant-card-body {
+  padding: 10px !important;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 10px;
+  width: 90%;
+}
+
+.ant-card-meta-detail {
+  text-align: left;
+  flex: 3;
+}
+
+.ant-card-meta-title {
+  font-size: 12px !important;
+  max-width: 150px;
+  word-wrap: break-word;
+}
+
+.card-price {
+  flex: 1;
+}
+
+.ant-spin-lg .ant-spin-dot {
+  font-size: 44px !important;
+  margin: 10rem;
+}

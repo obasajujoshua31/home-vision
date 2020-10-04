@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "http://app-homevision-staging.herokuapp.com/api_project/houses";
+const URL = "https://app-homevision-staging.herokuapp.com/api_project/houses";
 
 const getHouses = (page = 1, per_page = 9) => {
   return new Promise((resolve, reject) => {
